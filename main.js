@@ -9,7 +9,7 @@ while (loginAttempts < maxLoginAttempts) {
         {
             type: "number",
             name: "userPin",
-            message: `\n ${chalk.greenBright("This ATM Made By Muhammad Hamdan Bhatti ")}\nKindly Enter your PIN:`,
+            message: `\n ${chalk.greenBright("This ATM Made By Muhammad Hamdan Bhatti ")}\n The Pin is 8877 \nKindly Enter your PIN:`,
         },
     ]);
     const userPin = userInput.userPin;
